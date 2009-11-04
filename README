@@ -1,1 +1,8 @@
+follow.py
+==========
+Follow any follower of specified account and remove friendship if no following
 
+Specify username/password in ~/.following.conf, example:
+
+username='grmlproject'
+password='thepassword'
