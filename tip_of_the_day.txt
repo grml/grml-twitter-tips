@@ -6,7 +6,7 @@ Lock screen (X or console): grml-lock
 -- 
 Grep ignoring VCS dirs: ack-grep
 -- 
-Send&recieve data in your lan via npush/npoll:  sender$ npuss file  ; reciever $ npoll
+Send&recieve data in your lan via npush/npoll:  sender$ npush file  ; reciever $ npoll
 -- 
 Display the 5-10 last modified files with zsh: print -rl -- /path/to/dir/**/*(D.om[5,10])
 -- 
