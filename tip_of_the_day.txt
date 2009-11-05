@@ -107,3 +107,6 @@ Send a mail as reminder: echo "mail -s 'check TODO-list' $MAILADDRESS < /dev/nul
 Use ICQ / Jabber / Yahoo! / AIM / MSN /... on command line: centericq
 -- 
 Use IRC on command line: irssi
+-- 
+Display all available versions of package: grep-dctrl -P -X $pkg -sVersion -n /var/lib/apt/lists/*_Packages
+-- 
