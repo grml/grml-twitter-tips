@@ -1,4 +1,4 @@
-! Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
+Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
 -- 
 Configure mutt easily with grml-mutt
 -- 
