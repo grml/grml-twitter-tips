@@ -110,3 +110,7 @@ Use IRC on command line: irssi
 -- 
 Display all available versions of package: grep-dctrl -P -X $pkg -sVersion -n /var/lib/apt/lists/*_Packages
 -- 
+To set the hostname for grml append hostname to the bootparameters: grml hostname=livecd
+-- 
+To start the sshd automatically at startup append ssh to the bootparams: grml ssh=grml_password
+-- 
