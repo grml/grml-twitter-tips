@@ -1,34 +1,30 @@
-Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
--- 
-Configure mutt easily with grml-mutt
--- 
-Lock screen (X or console): grml-lock
+Configure console mailclient mutt easily with: grml-mutt
 -- 
 Grep ignoring VCS dirs: ack-grep
 -- 
-Send&receive data in your lan via npush/npoll:  sender$ npush file  ; receiver$ npoll
+Send&receive data in your lan via npush/npoll: sender$ npush file ; receiver$ npoll
 -- 
 Display the 5-10 last modified files with zsh: print -rl -- /path/to/dir/**/*(D.om[5,10])
 -- 
-Find all the empty directories in a tree with zsh: ls -ld *(/^F)
--- 
-Remove empty directories with zsh: rmdir ./**/*(/od) 2> /dev/null
--- 
-Convert images (foo.gif to foo.png) using zsh: for i in **/*.gif; convert $i $i:r.png
--- 
 Search for printers via network: pconf_detect -m NETWORK -i 192.168.0.1/24
+-- 
+Find all the empty directories in a tree with zsh: ls -ld *(/^F)
 -- 
 Get current stable kernel release: ketchup 2.6
 -- 
-Create random password: pwgen
+Create random password: pwgen || gpw || apg
 -- 
 Determine current official ip: myip
---
+-- 
 Merge avi files: avimerge -i *.avi -o output.avi
 -- 
 ncurses-based presentation tool: tpp
 -- 
+Remove empty directories with zsh: rmdir ./**/*(/od) 2>/dev/null
+-- 
 Flexible python packet generator: python-scapy
+-- 
+Configure console usenet client slrn easily with: grml-slrn
 -- 
 Switch behaviour of caps lock key: caps-ctrl
 -- 
@@ -36,31 +32,33 @@ Grab an audio CD and encode it to various formats: abcde
 -- 
 Swiss army knife for smtp: swaks
 -- 
+Convert images (foo.gif to foo.png) using zsh: for i in **/*.gif; convert $i $i:r.png
+-- 
 Secure deletion of data: wipe
 -- 
-Test your sound: soundtest
+Test your sound: soundtest || speaker-test
+-- 
+Change resolution of X: xrandr -s '1024x768'
+-- 
+Resize an NTFS partition: ntfsresize: e.g. ntfsresize -s 10G /dev/hda1
+-- 
+Configure network with: grml-network
 -- 
 Test your LCD: lcdtest
 -- 
-Change resolution in of X: xrandr -s '1024x768'
--- 
-Change resultion of framebuffer: fbset 1024x768-60
--- 
-Confiugre your network with: grml-network
--- 
-Deactivate error correction of zsh: NOCOR=1 zsh
--- 
 Disable automatic setting of title in GNU screen: NOPRECMD=1 zsh
--- 
-Do not use menu completion in zsh: NOMENU=1 zsh
 -- 
 Run GNU screen with grml-configuration: grml-screen or screen -c /etc/grml/screenrc
 -- 
 Set up VPN: grml-vpn -k 2005 add 1000 192.168.20.1 192.168.20.2, more details man grml-vpn
 -- 
-Configure grml system: grml-config
+Access configuration tools of grml system: grml-config
+-- 
+Deactivate error correction of zsh: NOCOR=1 zsh
 -- 
 Change wallpaper in X: grml-wallpaper <tab>
+-- 
+Do not use menu completion in zsh: NOMENU=1 zsh
 -- 
 Start X window system: grml-x $WINDOWMANAGER, e.g grml-x fluxbox
 -- 
@@ -68,17 +66,13 @@ Collect hardware information: grml-hwinfo. Will generate a file named info.tar.b
 -- 
 Mount ntfs partition (read-write): modprobe fuse ; ntfsmount /dev/hda1 /mnt/hda1
 -- 
-Resize an NTFS partition: ntfsresize: e.g. ntfsresize -s 10G /dev/hda1 
--- 
-Use grml on Samsung X20 laptop: apt-get install grml-samsung-x20
--- 
 Development information regarding grml: http://grml.supersized.org/
 -- 
 NTFS related packages: scrounge-ntfs || salvage-ntfs || ntfsprogs
 -- 
 Use webcam with mplayer: mplayer tv:// -tv driver=v4l:width=352:height=288:outfmt=yv12:device=/dev/video0
 -- 
-Show a console session in several terminals: gems
+Show a console session in several terminals: server# gems-server ; client% gems-client ${IP_OR_HOSTNAME}
 -- 
 grep with Perl-compatible regular expressions: pcregrep
 -- 
@@ -86,31 +80,29 @@ utility for sorting records in complex ways: msort
 -- 
 a smaller, cheaper, faster SED implementation: minised
 -- 
-zsh tips: man zsh-lovers Also have a look at http://grml.org/zsh/
+zsh tips: man zsh-lovers - also have a look at http://grml.org/zsh/
 -- 
-Extract matches when grepping: ifconfig | grepc 'inet addr:(.*?)\s' or ifconfig | glark
---extract-matches 'inet addr:(.*?)\s'
+Extract matches when grepping: ifconfig | grepc 'inet addr:(.*?)\s'
 -- 
-Output text as sound: say 'ghroummel' or under x: xsay
--- 
-Adjust a grml harddisk (grml2hd) installation: grml2hd-utils
+Output text as sound: 'say ghroummel' or under x: xsay
 -- 
 Get information on movie files: tcprobe -i file.avi
 -- 
 Get an overview of your image files: convert 'vid:*.jpg' thumbnails.jpg
 -- 
-To load/execute a script from network while booting append netscript parameter, e.g.  grml netscript=http://192.168.1.1/script
+To load/execute a script from network while booting append netscript parameter, e.g. 'netscript=http://192.168.1.1/script'
 -- 
-Send a mail as reminder: echo "mail -s 'check TODO-list' $MAILADDRESS < /dev/null" | at
-23:42
+Send a mail as reminder: echo "mail -s 'check TODO-list' $MAILADDRESS < /dev/null" | at 23:42
 -- 
-Use ICQ / Jabber / Yahoo! / AIM / MSN /... on command line: centericq
+Use ICQ / Jabber / Yahoo! / AIM / MSN /... on command line: centerim
 -- 
-Use IRC on command line: irssi
+Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
+-- 
+Use IRC on command line: irssi (autojoins #grml on freenode)
 -- 
 Display all available versions of package: grep-dctrl -P -X $pkg -sVersion -n /var/lib/apt/lists/*_Packages
 -- 
-To set the hostname for grml append hostname to the bootparameters: grml hostname=livecd
+To set the hostname for grml append hostname to the bootparameters: 'hostname=livecd'
 -- 
-To start the sshd automatically at startup append ssh to the bootparams: grml ssh=grml_password
+To start the sshd automatically at startup append ssh to the bootparams: 'ssh=grml_password'
 -- 
