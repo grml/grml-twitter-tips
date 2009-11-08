@@ -16,8 +16,9 @@ def follow(api):
     following = api.GetFriends()
 
     followers = api.GetFollowers()
+
     for follower in followers:
-        if (not follower in following):
+        if (not follower in following) and not follower.protected:
             print "Following: " + follower.screen_name
             api.CreateFriendship(follower.screen_name)
 
