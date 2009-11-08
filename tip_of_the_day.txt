@@ -1,4 +1,4 @@
-Configure console mailclient mutt easily with: grml-mutt
+! Configure console mailclient mutt easily with: grml-mutt
 -- 
 Grep ignoring VCS dirs: ack-grep
 -- 
