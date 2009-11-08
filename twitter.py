@@ -1581,9 +1581,15 @@ class Api(object):
     parameters = {}
     if page:
       parameters['page'] = page
+    parameters['cursor'] = -1
     json = self._FetchUrl(url, parameters=parameters)
     data = simplejson.loads(json)
     self._CheckForTwitterError(data)
+    try:
+        data.keys()
+        data = data['users']
+    except AttributeError:
+        pass
     return [User.NewFromJsonDict(x) for x in data]
 
   def GetFollowers(self, page=None):
@@ -1600,9 +1606,15 @@ class Api(object):
     parameters = {}
     if page:
       parameters['page'] = page
+    parameters['cursor'] = -1
     json = self._FetchUrl(url, parameters=parameters)
     data = simplejson.loads(json)
     self._CheckForTwitterError(data)
+    try:
+        data.keys()
+        data = data['users']
+    except AttributeError:
+        pass
     return [User.NewFromJsonDict(x) for x in data]
 
   def GetFeatured(self):
