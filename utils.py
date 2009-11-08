@@ -23,7 +23,7 @@ def follow(api):
 
     for friend in following:
         if not friend in followers:
-            print "Unfollowing:  " + follower.screen_name
+            print "Unfollowing:  " + friend.screen_name
             api.DestroyFriendship(friend.screen_name)
 
 def get_apis():
