@@ -1,6 +1,6 @@
 ! Configure console mailclient mutt easily with: grml-mutt
 -- 
-Grep ignoring VCS dirs: ack-grep
+! Grep ignoring VCS dirs: ack-grep
 -- 
 Display the 5-10 last modified files with zsh: print -rl -- /path/to/dir/**/*(D.om[5,10])
 -- 
