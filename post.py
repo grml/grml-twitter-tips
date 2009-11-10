@@ -4,12 +4,23 @@ import utils
 from get_line import get_new_entry
 import sys
 
+additional = ' #grml, #tip'
+zsh = ', #zsh'
+
 apis = utils.get_apis()
 entry = get_new_entry()
+
+
+def add_text(orig, add):
+    if len(orig) + len(add) <= 140 or len(orig) > 140:
+        orig += add
+    return orig
+
 if entry:
     entry = entry.rstrip()
-    if len(entry) < 130 or len(entry) > 140:
-        entry += " #grml, #tip"
+    entry = add_text(entry, additional)
+    if entry.find('zsh') != -1:
+        entry = add_text(entry, zsh)
 
     print "Posting: " + entry
     for api in apis:
