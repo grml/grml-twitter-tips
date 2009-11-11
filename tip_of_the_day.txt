@@ -2,7 +2,7 @@
 -- 
 ! Grep ignoring VCS dirs: ack-grep
 -- 
-Display the 5-10 last modified files with zsh: print -rl -- /path/to/dir/**/*(D.om[5,10])
+! Display the 5-10 last modified files with zsh: print -rl -- /path/to/dir/**/*(D.om[5,10])
 -- 
 Search for printers via network: pconf_detect -m NETWORK -i 192.168.0.1/24
 -- 
