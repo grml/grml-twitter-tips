@@ -4,11 +4,9 @@
 -- 
 ! Display the 5-10 last modified files with zsh: print -rl -- /path/to/dir/**/*(D.om[5,10])
 -- 
-Search for printers via network: pconf_detect -m NETWORK -i 192.168.0.1/24
+Get current stable kernel release: ketchup 2.6
 -- 
 Find all the empty directories in a tree with zsh: ls -ld *(/^F)
--- 
-Get current stable kernel release: ketchup 2.6
 -- 
 Create random password: pwgen || gpw || apg
 -- 
