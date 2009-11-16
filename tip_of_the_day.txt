@@ -6,7 +6,7 @@
 -- 
 ! Get current stable kernel release: ketchup 2.6
 -- 
-Find all the empty directories in a tree with zsh: ls -ld *(/^F)
+! Find all the empty directories in a tree with zsh: ls -ld *(/^F)
 -- 
 Create random password: pwgen || gpw || apg
 -- 
