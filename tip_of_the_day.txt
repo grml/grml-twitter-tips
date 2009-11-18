@@ -8,7 +8,7 @@
 -- 
 ! Find all the empty directories in a tree with zsh: ls -ld *(/^F)
 -- 
-Create random password: pwgen || gpw || apg
+! Create random password: pwgen || gpw || apg
 -- 
 Determine current official ip: myip
 -- 
