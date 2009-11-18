@@ -10,7 +10,7 @@
 -- 
 ! Create random password: pwgen || gpw || apg
 -- 
-Determine current official ip: myip
+Swiss army knife for smtp: swaks
 -- 
 Merge avi files: avimerge -i *.avi -o output.avi
 -- 
@@ -22,11 +22,11 @@ Flexible python packet generator: python-scapy
 -- 
 Configure console usenet client slrn easily with: grml-slrn
 -- 
-Switch behaviour of caps lock key: caps-ctrl
+Switch behaviour of caps lock key: caps-ctrl || http://git.grml.org/?p=grml-scripts.git;a=blob;f=usr_bin/caps-ctrl
 -- 
 Grab an audio CD and encode it to various formats: abcde
 -- 
-Swiss army knife for smtp: swaks
+Determine current official ip: myip
 -- 
 Convert images (foo.gif to foo.png) using zsh: for i in **/*.gif; convert $i $i:r.png
 -- 
