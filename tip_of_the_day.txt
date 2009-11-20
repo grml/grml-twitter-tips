@@ -10,7 +10,7 @@
 -- 
 ! Create random password: pwgen || gpw || apg
 -- 
-Swiss army knife for smtp: swaks
+! Swiss army knife for smtp: swaks
 -- 
 Merge avi files: avimerge -i *.avi -o output.avi
 -- 
