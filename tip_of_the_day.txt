@@ -12,7 +12,7 @@
 -- 
 ! Swiss army knife for smtp: swaks
 -- 
-Merge avi files: avimerge -i *.avi -o output.avi
+! Merge avi files: avimerge -i *.avi -o output.avi
 -- 
 ncurses-based presentation tool: tpp
 -- 
