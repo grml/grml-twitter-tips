@@ -14,7 +14,7 @@
 -- 
 ! Merge avi files: avimerge -i *.avi -o output.avi
 -- 
-ncurses-based presentation tool: tpp
+! ncurses-based presentation tool: tpp
 -- 
 Remove empty directories with zsh: rmdir ./**/*(/od) 2>/dev/null
 -- 
