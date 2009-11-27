@@ -16,7 +16,7 @@
 -- 
 ! ncurses-based presentation tool: tpp
 -- 
-Remove empty directories with zsh: rmdir ./**/*(/od) 2>/dev/null
+! Remove empty directories with zsh: rmdir ./**/*(/od) 2>/dev/null
 -- 
 Flexible python packet generator: python-scapy
 -- 
