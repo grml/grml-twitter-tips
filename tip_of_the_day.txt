@@ -18,7 +18,7 @@
 -- 
 ! Remove empty directories with zsh: rmdir ./**/*(/od) 2>/dev/null
 -- 
-Flexible python packet generator: python-scapy
+! Flexible python packet generator: python-scapy
 -- 
 Configure console usenet client slrn easily with: grml-slrn
 -- 
