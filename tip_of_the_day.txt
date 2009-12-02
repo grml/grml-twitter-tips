@@ -20,7 +20,7 @@
 -- 
 ! Flexible python packet generator: python-scapy
 -- 
-Configure console usenet client slrn easily with: grml-slrn
+! Configure console usenet client slrn easily with: grml-slrn
 -- 
 Switch behaviour of caps lock key: caps-ctrl || http://git.grml.org/?p=grml-scripts.git;a=blob;f=usr_bin/caps-ctrl
 -- 
