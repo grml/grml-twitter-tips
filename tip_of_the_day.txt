@@ -22,7 +22,7 @@
 -- 
 ! Configure console usenet client slrn easily with: grml-slrn
 -- 
-Test your LCD: lcdtest
+! Test your LCD: lcdtest
 -- 
 Grab an audio CD and encode it to various formats: abcde
 -- 
