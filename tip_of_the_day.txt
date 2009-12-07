@@ -24,7 +24,7 @@
 -- 
 ! Test your LCD: lcdtest
 -- 
-Grab an audio CD and encode it to various formats: abcde
+! Grab an audio CD and encode it to various formats: abcde
 -- 
 Determine current official ip: myip
 -- 
