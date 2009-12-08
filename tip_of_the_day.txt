@@ -26,7 +26,7 @@
 -- 
 ! Grab an audio CD and encode it to various formats: abcde
 -- 
-Determine current official ip: myip
+Run GNU screen with grml-configuration: grml-screen or screen -c /etc/grml/screenrc
 -- 
 Convert images (foo.gif to foo.png) using zsh: for i in **/*.gif; convert $i $i:r.png
 -- 
@@ -44,7 +44,7 @@ Switch behaviour of caps lock key: caps-ctrl || http://git.grml.org/?p=grml-scri
 -- 
 Disable automatic setting of title in GNU screen: NOPRECMD=1 zsh
 -- 
-Run GNU screen with grml-configuration: grml-screen or screen -c /etc/grml/screenrc
+Determine current official ip: myip
 -- 
 Set up VPN: grml-vpn -k 2005 add 1000 192.168.20.1 192.168.20.2, more details man grml-vpn
 -- 
