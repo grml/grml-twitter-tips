@@ -26,7 +26,7 @@
 -- 
 ! Grab an audio CD and encode it to various formats: abcde
 -- 
-Run GNU screen with grml-configuration: grml-screen or screen -c /etc/grml/screenrc
+! Run GNU screen with grml-configuration: grml-screen or screen -c /etc/grml/screenrc
 -- 
 Convert images (foo.gif to foo.png) using zsh: for i in **/*.gif; convert $i $i:r.png
 -- 
