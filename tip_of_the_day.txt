@@ -30,7 +30,7 @@
 -- 
 ! Convert images (foo.gif to foo.png) using zsh: for i in **/*.gif; convert $i $i:r.png
 -- 
-Secure deletion of data: wipe
+! Secure deletion of data: wipe
 -- 
 Test your sound: soundtest || speaker-test
 -- 
