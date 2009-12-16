@@ -32,7 +32,7 @@
 -- 
 ! Secure deletion of data: wipe
 -- 
-Test your sound: soundtest || speaker-test
+! Test your sound: soundtest || speaker-test
 -- 
 Change resolution of X: xrandr -s '1024x768'
 -- 
