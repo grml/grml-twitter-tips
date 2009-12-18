@@ -34,7 +34,7 @@
 -- 
 ! Test your sound: soundtest || speaker-test
 -- 
-Change resolution of X: xrandr -s '1024x768'
+! Change resolution of X: xrandr -s '1024x768'
 -- 
 Resize an NTFS partition: ntfsresize: e.g. ntfsresize -s 10G /dev/hda1
 -- 
