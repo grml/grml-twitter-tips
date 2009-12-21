@@ -36,7 +36,7 @@
 -- 
 ! Change resolution of X: xrandr -s '1024x768'
 -- 
-Resize an NTFS partition: ntfsresize: e.g. ntfsresize -s 10G /dev/hda1
+! Resize an NTFS partition: ntfsresize: e.g. ntfsresize -s 10G /dev/hda1
 -- 
 Configure network with: grml-network
 -- 
