@@ -40,7 +40,7 @@
 -- 
 ! Configure network with: grml-network
 -- 
-Switch behaviour of caps lock key: caps-ctrl || http://git.grml.org/?p=grml-scripts.git;a=blob;f=usr_bin/caps-ctrl
+! Switch behaviour of caps lock key: caps-ctrl || http://git.grml.org/?p=grml-scripts.git;a=blob;f=usr_bin/caps-ctrl
 -- 
 Disable automatic setting of title in GNU screen: NOPRECMD=1 zsh
 -- 
