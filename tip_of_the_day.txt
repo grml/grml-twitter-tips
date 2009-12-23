@@ -38,7 +38,7 @@
 -- 
 ! Resize an NTFS partition: ntfsresize: e.g. ntfsresize -s 10G /dev/hda1
 -- 
-Configure network with: grml-network
+! Configure network with: grml-network
 -- 
 Switch behaviour of caps lock key: caps-ctrl || http://git.grml.org/?p=grml-scripts.git;a=blob;f=usr_bin/caps-ctrl
 -- 
