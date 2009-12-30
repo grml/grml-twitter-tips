@@ -46,7 +46,7 @@
 -- 
 ! Determine current official ip: myip
 -- 
-Set up VPN: grml-vpn -k 2005 add 1000 192.168.20.1 192.168.20.2, more details man grml-vpn
+! Set up VPN: grml-vpn -k 2005 add 1000 192.168.20.1 192.168.20.2, more details man grml-vpn
 -- 
 Access configuration tools of grml system: grml-config
 -- 
