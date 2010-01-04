@@ -50,7 +50,7 @@
 -- 
 ! Access configuration tools of grml system: grml-config
 -- 
-Deactivate error correction of zsh: NOCOR=1 zsh
+! Deactivate error correction of zsh: NOCOR=1 zsh
 -- 
 Change wallpaper in X: grml-wallpaper <tab>
 -- 
