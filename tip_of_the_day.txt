@@ -52,7 +52,7 @@
 -- 
 ! Deactivate error correction of zsh: NOCOR=1 zsh
 -- 
-Change wallpaper in X: grml-wallpaper <tab>
+! Change wallpaper in X: grml-wallpaper <tab>
 -- 
 Do not use menu completion in zsh: NOMENU=1 zsh
 -- 
