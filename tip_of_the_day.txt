@@ -54,7 +54,7 @@
 -- 
 ! Change wallpaper in X: grml-wallpaper <tab>
 -- 
-Do not use menu completion in zsh: NOMENU=1 zsh
+! Do not use menu completion in zsh: NOMENU=1 zsh
 -- 
 Start X window system: grml-x $WINDOWMANAGER, e.g grml-x fluxbox
 -- 
