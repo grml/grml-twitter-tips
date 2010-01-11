@@ -56,7 +56,7 @@
 -- 
 ! Do not use menu completion in zsh: NOMENU=1 zsh
 -- 
-Start X window system: grml-x $WINDOWMANAGER, e.g grml-x fluxbox
+! Start X window system: grml-x $WINDOWMANAGER, e.g grml-x fluxbox
 -- 
 Collect hardware information: grml-hwinfo. Will generate a file named info.tar.bz2
 -- 
