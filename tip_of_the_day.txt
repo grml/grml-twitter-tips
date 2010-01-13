@@ -58,7 +58,7 @@
 -- 
 ! Start X window system: grml-x $WINDOWMANAGER, e.g grml-x fluxbox
 -- 
-Collect hardware information: grml-hwinfo. Will generate a file named info.tar.bz2
+! Collect hardware information: grml-hwinfo. Will generate a file named info.tar.bz2
 -- 
 Mount ntfs partition (read-write): modprobe fuse ; ntfsmount /dev/hda1 /mnt/hda1
 -- 
