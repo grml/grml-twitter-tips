@@ -60,7 +60,7 @@
 -- 
 ! Collect hardware information: grml-hwinfo. Will generate a file named info.tar.bz2
 -- 
-Mount ntfs partition (read-write): modprobe fuse ; ntfsmount /dev/hda1 /mnt/hda1
+! Mount ntfs partition (read-write): modprobe fuse ; ntfsmount /dev/hda1 /mnt/hda1
 -- 
 Development information regarding grml: http://grml.supersized.org/
 -- 
