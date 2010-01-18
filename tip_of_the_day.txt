@@ -62,7 +62,7 @@
 -- 
 ! Mount ntfs partition (read-write): modprobe fuse ; ntfsmount /dev/hda1 /mnt/hda1
 -- 
-Development information regarding grml: http://grml.supersized.org/
+! Development information regarding grml: http://grml.supersized.org/
 -- 
 NTFS related packages: scrounge-ntfs || salvage-ntfs || ntfsprogs
 -- 
