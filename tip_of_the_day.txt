@@ -64,7 +64,7 @@
 -- 
 ! Development information regarding grml: http://grml.supersized.org/
 -- 
-NTFS related packages: scrounge-ntfs || salvage-ntfs || ntfsprogs
+! NTFS related packages: scrounge-ntfs || salvage-ntfs || ntfsprogs
 -- 
 Use webcam with mplayer: mplayer tv:// -tv driver=v4l:width=352:height=288:outfmt=yv12:device=/dev/video0
 -- 
