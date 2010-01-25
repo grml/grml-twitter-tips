@@ -68,7 +68,7 @@
 -- 
 ! Use webcam with mplayer: mplayer tv:// -tv driver=v4l:width=352:height=288:outfmt=yv12:device=/dev/video0
 -- 
-Show a console session in several terminals: server# gems-server ; client% gems-client ${IP_OR_HOSTNAME}
+! Show a console session in several terminals: server# gems-server ; client% gems-client ${IP_OR_HOSTNAME}
 -- 
 grep with Perl-compatible regular expressions: pcregrep
 -- 
