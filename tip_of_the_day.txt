@@ -70,7 +70,7 @@
 -- 
 ! Show a console session in several terminals: server# gems-server ; client% gems-client ${IP_OR_HOSTNAME}
 -- 
-grep with Perl-compatible regular expressions: pcregrep
+! grep with Perl-compatible regular expressions: pcregrep
 -- 
 utility for sorting records in complex ways: msort
 -- 
