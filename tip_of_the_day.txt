@@ -72,7 +72,7 @@
 -- 
 ! grep with Perl-compatible regular expressions: pcregrep
 -- 
-utility for sorting records in complex ways: msort
+! utility for sorting records in complex ways: msort
 -- 
 a smaller, cheaper, faster SED implementation: minised
 -- 
