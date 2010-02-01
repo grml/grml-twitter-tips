@@ -74,7 +74,7 @@
 -- 
 ! utility for sorting records in complex ways: msort
 -- 
-a smaller, cheaper, faster SED implementation: minised
+! a smaller, cheaper, faster SED implementation: minised
 -- 
 zsh tips: man zsh-lovers - also have a look at http://grml.org/zsh/
 -- 
