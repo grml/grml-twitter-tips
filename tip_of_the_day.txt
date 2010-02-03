@@ -76,7 +76,7 @@
 -- 
 ! a smaller, cheaper, faster SED implementation: minised
 -- 
-zsh tips: man zsh-lovers - also have a look at http://grml.org/zsh/
+! zsh tips: man zsh-lovers - also have a look at http://grml.org/zsh/
 -- 
 Extract matches when grepping: ifconfig | grepc 'inet addr:(.*?)\s'
 -- 
