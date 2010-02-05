@@ -78,7 +78,7 @@
 -- 
 ! zsh tips: man zsh-lovers - also have a look at http://grml.org/zsh/
 -- 
-Extract matches when grepping: ifconfig | grepc 'inet addr:(.*?)\s'
+! Extract matches when grepping: ifconfig | grepc 'inet addr:(.*?)\s'
 -- 
 Output text as sound: 'say ghroummel' or under x: xsay
 -- 
