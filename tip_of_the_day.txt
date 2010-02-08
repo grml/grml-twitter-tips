@@ -80,7 +80,7 @@
 -- 
 ! Extract matches when grepping: ifconfig | grepc 'inet addr:(.*?)\s'
 -- 
-Output text as sound: 'say ghroummel' or under x: xsay
+! Output text as sound: 'say ghroummel' or under x: xsay
 -- 
 Get information on movie files: tcprobe -i file.avi
 -- 
