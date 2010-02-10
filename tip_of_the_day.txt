@@ -82,7 +82,7 @@
 -- 
 ! Output text as sound: 'say ghroummel' or under x: xsay
 -- 
-Get information on movie files: tcprobe -i file.avi
+! Get information on movie files: tcprobe -i file.avi
 -- 
 Get an overview of your image files: convert 'vid:*.jpg' thumbnails.jpg
 -- 
