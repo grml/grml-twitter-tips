@@ -84,7 +84,7 @@
 -- 
 ! Get information on movie files: tcprobe -i file.avi
 -- 
-Get an overview of your image files: convert 'vid:*.jpg' thumbnails.jpg
+! Get an overview of your image files: convert 'vid:*.jpg' thumbnails.jpg
 -- 
 To load/execute a script from network while booting append netscript parameter, e.g. 'netscript=http://192.168.1.1/script'
 -- 
