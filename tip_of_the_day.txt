@@ -86,7 +86,7 @@
 -- 
 ! Get an overview of your image files: convert 'vid:*.jpg' thumbnails.jpg
 -- 
-To load/execute a script from network while booting append netscript parameter, e.g. 'netscript=http://192.168.1.1/script'
+! To load/execute a script from network while booting append netscript parameter, e.g. 'netscript=http://192.168.1.1/script'
 -- 
 Send a mail as reminder: echo "mail -s 'check TODO-list' $MAILADDRESS < /dev/null" | at 23:42
 -- 
