@@ -88,7 +88,7 @@
 -- 
 ! To load/execute a script from network while booting append netscript parameter, e.g. 'netscript=http://192.168.1.1/script'
 -- 
-Send a mail as reminder: echo "mail -s 'check TODO-list' $MAILADDRESS < /dev/null" | at 23:42
+! Send a mail as reminder: echo "mail -s 'check TODO-list' $MAILADDRESS < /dev/null" | at 23:42
 -- 
 Use ICQ / Jabber / Yahoo! / AIM / MSN /... on command line: centerim
 -- 
