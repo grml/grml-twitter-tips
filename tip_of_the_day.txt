@@ -90,7 +90,7 @@
 -- 
 ! Send a mail as reminder: echo "mail -s 'check TODO-list' $MAILADDRESS < /dev/null" | at 23:42
 -- 
-Use ICQ / Jabber / Yahoo! / AIM / MSN /... on command line: centerim
+! Use ICQ / Jabber / Yahoo! / AIM / MSN /... on command line: centerim
 -- 
 Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
 -- 
