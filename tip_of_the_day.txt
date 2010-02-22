@@ -92,7 +92,7 @@
 -- 
 ! Use ICQ / Jabber / Yahoo! / AIM / MSN /... on command line: centerim
 -- 
-Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
+! Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
 -- 
 Use IRC on command line: irssi (autojoins #grml on freenode)
 -- 
