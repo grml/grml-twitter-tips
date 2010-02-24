@@ -94,7 +94,7 @@
 -- 
 ! Install grml to harddisk: grml2hd - http://grml.org/grml2hd/
 -- 
-Use IRC on command line: irssi (autojoins #grml on freenode)
+! Use IRC on command line: irssi (autojoins #grml on freenode)
 -- 
 Display all available versions of package: grep-dctrl -P -X $pkg -sVersion -n /var/lib/apt/lists/*_Packages
 -- 
