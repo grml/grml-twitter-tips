@@ -100,5 +100,5 @@
 -- 
 ! To set the hostname for grml append hostname to the bootparameters: 'hostname=livecd'
 -- 
-To start the sshd automatically at startup append ssh to the bootparams: 'ssh=grml_password'
+! To start the sshd automatically at startup append ssh to the bootparams: 'ssh=grml_password'
 -- 
