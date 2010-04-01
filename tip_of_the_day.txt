@@ -102,3 +102,63 @@
 -- 
 ! To start the sshd automatically at startup append ssh to the bootparams: 'ssh=grml_password'
 -- 
+Hardware monitoring without kernel dependencies: mbmon
+-- 
+Install grml-iso to usb-stick: grml2usb grml.iso /mount/point
+-- 
+Use mplayer on framebuffer console: mplayer -vo fbdev
+-- 
+Save live stream to file: mplayer -dumpfile $FILE -dumpstream $STREAM
+-- 
+Read HTTP via netcat: echo "GET / HTTP/1.0\r\n\r\n" | netcat $DOMAIN 80
+-- 
+Get X ressources for specific program: xrdb -q |grep -i xterm
+-- 
+Backup master boot record (MBR): dd if=/dev/ice of=/tmp/backup_of_mbr bs=512 count=1
+-- 
+Backup partition table: sfdisk -d /dev/hda > hda.out restore it with sfdisk /dev/hda < hda.out
+-- 
+Clone disk via network using #netcat Listener: nc -vlp 30000 > hda1.img Source: dd if=/dev/hda1 | nc -vq 0 192.168.1.2 30000
+-- 
+Get ASCII value of a character with zsh: char=N ; print $((#char)) 
+-- 
+Mount filesystems over ssh protocol: sshfs user@host:/remote_dir /mnt/test Unmount via: fusermount -u /mnt/test
+-- 
+Change Windows NT password(s): mount.ntfs-3g /dev/sda1 /mnt/sda1 ; cd /mnt/sda1/WINDOWS/system32/config/ ; chntpw SAM SECURITY system
+-- 
+Check grml cd: readcd -c2scan dev=/dev/cdrom
+-- 
+Run apt-get with timeout of 3 seconds: apt-get -o acquire::http::timeout=3  update
+-- 
+Mount a remote directory via webdav (e.g. Mediacenter of GMX): mount -t davfs https://mediacenter.gmx.net/ /mnt/test
+-- 
+Start X and lock console via exiting: startx 2>~/.xsession-errors &| exit
+-- 
+Install initrd via initramfs-tools for currently running kernel: update-initramfs -c -t-k $(uname -r)
+-- 
+Reinstall deb with orig config files: apt-get install --reinstall -o DPkg::Options::=--force-confmiss -o DPkg::Options::=--force-confnew deb
+-- 
+Monitor directories/files for changes using iwatch: iwatch /tmp/
+-- 
+Disable pdiffs for APT Permanent: echo 'Acquire::PDiffs "false";' >> /etc/apt/apt.conf  Temporary: apt-get update -o Acquire::Pdiffs=false
+-- 
+Measure network performance using iperf: server: iperf -s -V client: iperf -c <server_address> -V
+-- 
+Portscan using netcat: netcat -v -w2 <host|ip-addr.> 1-1024
+-- 
+Read manpages of uninstalled packages with debman: debman -p git-core git
+-- 
+Boot grml via network / PXE: grml-terminalserver
+-- 
+Set up an IPv6 tunnel on grml: ipv6-tunnel start
+-- 
+Calculate with IPv6 addresses: ipv6calc 
+-- 
+Calculate IPv4 network / netmask with ipcalc, example: ipcalc 10.0.0.25/28
+-- 
+Create a Debian package of a perl module: dh-make-perl --cpan Acme::Smirch --build
+-- 
+Find dangling symlinks using zsh: % ls **/*(-@)
+-- 
+Remote-reboot a grml system using SysRQ via /proc (as root): eject &>/dev/null;umount -l /cdrom;eject /dev/cdrom ;echo b>/proc/sysrq-trigger
+-- 
