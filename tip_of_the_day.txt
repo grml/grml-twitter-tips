@@ -102,9 +102,9 @@
 -- 
 ! To start the sshd automatically at startup append ssh to the bootparams: 'ssh=grml_password'
 -- 
-Hardware monitoring without kernel dependencies: mbmon
+! Install grml-iso to usb-stick: grml2usb grml.iso /mount/point
 -- 
-Install grml-iso to usb-stick: grml2usb grml.iso /mount/point
+Hardware monitoring without kernel dependencies: mbmon
 -- 
 Use mplayer on framebuffer console: mplayer -vo fbdev
 -- 
