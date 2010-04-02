@@ -162,3 +162,5 @@ Find dangling symlinks using zsh: % ls **/*(-@)
 -- 
 Remote-reboot a grml system using SysRQ via /proc (as root): eject &>/dev/null;umount -l /cdrom;eject /dev/cdrom ;echo b>/proc/sysrq-trigger
 -- 
+Did you know that you can reach Grml's cheatcodes file through http://grml.org/cheatcodes/ ?
+-- 
