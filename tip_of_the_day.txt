@@ -104,7 +104,7 @@
 -- 
 ! Install grml-iso to usb-stick: grml2usb grml.iso /mount/point
 -- 
-Hardware monitoring without kernel dependencies: mbmon
+! Hardware monitoring without kernel dependencies: mbmon
 -- 
 Use mplayer on framebuffer console: mplayer -vo fbdev
 -- 
