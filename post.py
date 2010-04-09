@@ -4,7 +4,7 @@ import utils
 from get_line import get_new_entry
 import sys
 
-additional = ' #grml, #tip'
+additional = ' #grmlproject, #tip'
 zsh = ', #zsh'
 
 apis = utils.get_apis()
