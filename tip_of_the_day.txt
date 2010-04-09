@@ -108,7 +108,7 @@
 -- 
 ! Use mplayer on framebuffer console: mplayer -vo fbdev
 -- 
-Save live stream to file: mplayer -dumpfile $FILE -dumpstream $STREAM
+! Save live stream to file: mplayer -dumpfile $FILE -dumpstream $STREAM
 -- 
 Read HTTP via netcat: echo "GET / HTTP/1.0\r\n\r\n" | netcat $DOMAIN 80
 -- 
