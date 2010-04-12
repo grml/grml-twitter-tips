@@ -110,7 +110,7 @@
 -- 
 ! Save live stream to file: mplayer -dumpfile $FILE -dumpstream $STREAM
 -- 
-Read HTTP via netcat: echo "GET / HTTP/1.0\r\n\r\n" | netcat $DOMAIN 80
+! Read HTTP via netcat: echo "GET / HTTP/1.0\r\n\r\n" | netcat $DOMAIN 80
 -- 
 Get X ressources for specific program: xrdb -q |grep -i xterm
 -- 
