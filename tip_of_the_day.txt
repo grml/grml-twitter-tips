@@ -112,7 +112,7 @@
 -- 
 ! Read HTTP via netcat: echo "GET / HTTP/1.0\r\n\r\n" | netcat $DOMAIN 80
 -- 
-Get X ressources for specific program: xrdb -q |grep -i xterm
+! Get X ressources for specific program: xrdb -q |grep -i xterm
 -- 
 Backup master boot record (MBR): dd if=/dev/ice of=/tmp/backup_of_mbr bs=512 count=1
 -- 
