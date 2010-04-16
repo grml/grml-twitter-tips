@@ -114,7 +114,7 @@
 -- 
 ! Get X ressources for specific program: xrdb -q |grep -i xterm
 -- 
-Backup master boot record (MBR): dd if=/dev/ice of=/tmp/backup_of_mbr bs=512 count=1
+! Backup master boot record (MBR): dd if=/dev/ice of=/tmp/backup_of_mbr bs=512 count=1
 -- 
 Backup partition table: sfdisk -d /dev/hda > hda.out restore it with sfdisk /dev/hda < hda.out
 -- 
