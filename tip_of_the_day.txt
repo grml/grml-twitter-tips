@@ -116,7 +116,7 @@
 -- 
 ! Backup master boot record (MBR): dd if=/dev/ice of=/tmp/backup_of_mbr bs=512 count=1
 -- 
-Backup partition table: sfdisk -d /dev/hda > hda.out restore it with sfdisk /dev/hda < hda.out
+! Backup partition table: sfdisk -d /dev/hda > hda.out restore it with sfdisk /dev/hda < hda.out
 -- 
 Clone disk via network using #netcat Listener: nc -vlp 30000 > hda1.img Source: dd if=/dev/hda1 | nc -vq 0 192.168.1.2 30000
 -- 
