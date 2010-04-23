@@ -120,7 +120,7 @@
 -- 
 ! Clone disk via network using #netcat Listener: nc -vlp 30000 > hda1.img Source: dd if=/dev/hda1 | nc -vq 0 192.168.1.2 30000
 -- 
-Get ASCII value of a character with zsh: char=N ; print $((#char)) 
+! Get ASCII value of a character with zsh: char=N ; print $((#char)) 
 -- 
 Mount filesystems over ssh protocol: sshfs user@host:/remote_dir /mnt/test Unmount via: fusermount -u /mnt/test
 -- 
