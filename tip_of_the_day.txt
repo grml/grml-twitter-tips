@@ -122,7 +122,7 @@
 -- 
 ! Get ASCII value of a character with zsh: char=N ; print $((#char)) 
 -- 
-Mount filesystems over ssh protocol: sshfs user@host:/remote_dir /mnt/test Unmount via: fusermount -u /mnt/test
+! Mount filesystems over ssh protocol: sshfs user@host:/remote_dir /mnt/test Unmount via: fusermount -u /mnt/test
 -- 
 Change Windows NT password(s): mount.ntfs-3g /dev/sda1 /mnt/sda1 ; cd /mnt/sda1/WINDOWS/system32/config/ ; chntpw SAM SECURITY system
 -- 
