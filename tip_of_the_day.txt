@@ -124,7 +124,7 @@
 -- 
 ! Mount filesystems over ssh protocol: sshfs user@host:/remote_dir /mnt/test Unmount via: fusermount -u /mnt/test
 -- 
-Change Windows NT password(s): mount.ntfs-3g /dev/sda1 /mnt/sda1 ; cd /mnt/sda1/WINDOWS/system32/config/ ; chntpw SAM SECURITY system
+! Change Windows NT password(s): mount.ntfs-3g /dev/sda1 /mnt/sda1 ; cd /mnt/sda1/WINDOWS/system32/config/ ; chntpw SAM SECURITY system
 -- 
 Check grml cd: readcd -c2scan dev=/dev/cdrom
 -- 
