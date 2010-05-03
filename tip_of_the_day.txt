@@ -128,7 +128,7 @@
 -- 
 ! Check grml cd: readcd -c2scan dev=/dev/cdrom
 -- 
-Run apt-get with timeout of 3 seconds: apt-get -o acquire::http::timeout=3  update
+! Run apt-get with timeout of 3 seconds: apt-get -o acquire::http::timeout=3  update
 -- 
 Mount a remote directory via webdav (e.g. Mediacenter of GMX): mount -t davfs https://mediacenter.gmx.net/ /mnt/test
 -- 
