@@ -130,7 +130,7 @@
 -- 
 ! Run apt-get with timeout of 3 seconds: apt-get -o acquire::http::timeout=3  update
 -- 
-Mount a remote directory via webdav (e.g. Mediacenter of GMX): mount -t davfs https://mediacenter.gmx.net/ /mnt/test
+! Mount a remote directory via webdav (e.g. Mediacenter of GMX): mount -t davfs https://mediacenter.gmx.net/ /mnt/test
 -- 
 Start X and lock console via exiting: startx 2>~/.xsession-errors &| exit
 -- 
