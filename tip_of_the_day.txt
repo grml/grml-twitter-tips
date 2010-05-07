@@ -132,7 +132,7 @@
 -- 
 ! Mount a remote directory via webdav (e.g. Mediacenter of GMX): mount -t davfs https://mediacenter.gmx.net/ /mnt/test
 -- 
-Start X and lock console via exiting: startx 2>~/.xsession-errors &| exit
+! Start X and lock console via exiting: startx 2>~/.xsession-errors &| exit
 -- 
 Install initrd via initramfs-tools for currently running kernel: update-initramfs -c -t-k $(uname -r)
 -- 
