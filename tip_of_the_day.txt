@@ -134,7 +134,7 @@
 -- 
 ! Start X and lock console via exiting: startx 2>~/.xsession-errors &| exit
 -- 
-Install initrd via initramfs-tools for currently running kernel: update-initramfs -c -t-k $(uname -r)
+! Find dangling symlinks using zsh: % ls **/*(-@)
 -- 
 Reinstall deb with orig config files: apt-get install --reinstall -o DPkg::Options::=--force-confmiss -o DPkg::Options::=--force-confnew deb
 -- 
@@ -158,7 +158,7 @@ Calculate IPv4 network / netmask with ipcalc, example: ipcalc 10.0.0.25/28
 -- 
 Create a Debian package of a perl module: dh-make-perl --cpan Acme::Smirch --build
 -- 
-Find dangling symlinks using zsh: % ls **/*(-@)
+Install initrd via initramfs-tools for currently running kernel: update-initramfs -c -t-k $(uname -r)
 -- 
 Remote-reboot a grml system using SysRQ via /proc (as root): eject &>/dev/null;umount -l /cdrom;eject /dev/cdrom ;echo b>/proc/sysrq-trigger
 -- 
