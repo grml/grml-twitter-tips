@@ -138,7 +138,7 @@
 -- 
 ! Reinstall deb with orig config files: apt-get install --reinstall -o DPkg::Options::=--force-confmiss -o DPkg::Options::=--force-confnew deb
 -- 
-Monitor directories/files for changes using iwatch: iwatch /tmp/
+! Monitor directories/files for changes using iwatch: iwatch /tmp/
 -- 
 Disable pdiffs for APT Permanent: echo 'Acquire::PDiffs "false";' >> /etc/apt/apt.conf  Temporary: apt-get update -o Acquire::Pdiffs=false
 -- 
