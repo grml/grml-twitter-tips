@@ -140,7 +140,7 @@
 -- 
 ! Monitor directories/files for changes using iwatch: iwatch /tmp/
 -- 
-Disable pdiffs for APT Permanent: echo 'Acquire::PDiffs "false";' >> /etc/apt/apt.conf  Temporary: apt-get update -o Acquire::Pdiffs=false
+! Disable pdiffs for APT Permanent: echo 'Acquire::PDiffs "false";' >> /etc/apt/apt.conf  Temporary: apt-get update -o Acquire::Pdiffs=false
 -- 
 Measure network performance using iperf: server: iperf -s -V client: iperf -c <server_address> -V
 -- 
