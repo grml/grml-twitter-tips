@@ -142,7 +142,7 @@
 -- 
 ! Disable pdiffs for APT Permanent: echo 'Acquire::PDiffs "false";' >> /etc/apt/apt.conf  Temporary: apt-get update -o Acquire::Pdiffs=false
 -- 
-Measure network performance using iperf: server: iperf -s -V client: iperf -c <server_address> -V
+! Measure network performance using iperf: server: iperf -s -V client: iperf -c <server_address> -V
 -- 
 Portscan using netcat: netcat -v -w2 <host|ip-addr.> 1-1024
 -- 
