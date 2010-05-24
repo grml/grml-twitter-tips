@@ -146,7 +146,7 @@
 -- 
 ! Portscan using netcat: netcat -v -w2 <host|ip-addr.> 1-1024
 -- 
-Read manpages of uninstalled packages with debman: debman -p git-core git
+! Read manpages of uninstalled packages with debman: debman -p git-core git
 -- 
 Boot grml via network / PXE: grml-terminalserver
 -- 
