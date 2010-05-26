@@ -148,7 +148,7 @@
 -- 
 ! Read manpages of uninstalled packages with debman: debman -p git-core git
 -- 
-Boot grml via network / PXE: grml-terminalserver
+! Boot grml via network / PXE: grml-terminalserver
 -- 
 Set up an IPv6 tunnel on grml: ipv6-tunnel start
 -- 
