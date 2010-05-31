@@ -152,7 +152,7 @@
 -- 
 ! Set up an IPv6 tunnel on grml: ipv6-tunnel start
 -- 
-Calculate with IPv6 addresses: ipv6calc 
+! Calculate with IPv6 addresses: ipv6calc 
 -- 
 Calculate IPv4 network / netmask with ipcalc, example: ipcalc 10.0.0.25/28
 -- 
