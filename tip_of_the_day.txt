@@ -156,7 +156,7 @@
 -- 
 ! Calculate IPv4 network / netmask with ipcalc, example: ipcalc 10.0.0.25/28
 -- 
-Create a Debian package of a perl module: dh-make-perl --cpan Acme::Smirch --build
+! Create a Debian package of a perl module: dh-make-perl --cpan Acme::Smirch --build
 -- 
 Install initrd via initramfs-tools for currently running kernel: update-initramfs -c -t-k $(uname -r)
 -- 
