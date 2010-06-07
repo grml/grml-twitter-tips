@@ -158,9 +158,19 @@
 -- 
 ! Create a Debian package of a perl module: dh-make-perl --cpan Acme::Smirch --build
 -- 
-Install initrd via initramfs-tools for currently running kernel: update-initramfs -c -t-k $(uname -r)
+! Install initrd via initramfs-tools for currently running kernel: update-initramfs -c -t-k $(uname -r)
 -- 
 Remote-reboot a grml system using SysRQ via /proc (as root): eject &>/dev/null;umount -l /cdrom;eject /dev/cdrom ;echo b>/proc/sysrq-trigger
 -- 
 Did you know that you can reach Grml's cheatcodes file through http://grml.org/cheatcodes/ ?
+-- 
+Reboot a windows machine: net rpc shutdown -r -I IP_ADDRESS -U username%password
+-- 
+grml offline documentation: % grml-info
+-- 
+Secure delete file / directory / partition with wipe || shred || sfill 
+-- 
+Grml's developer blog: http://grml.supersized.org/
+-- 
+fast file copy tool for LANS Local: npush file_to_copy Remote: npoll
 -- 
