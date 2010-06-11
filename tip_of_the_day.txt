@@ -162,7 +162,7 @@
 -- 
 ! Remote-reboot a grml system using SysRQ via /proc (as root): eject &>/dev/null;umount -l /cdrom;eject /dev/cdrom ;echo b>/proc/sysrq-trigger
 -- 
-Did you know that you can reach Grml's cheatcodes file through http://grml.org/cheatcodes/ ?
+! Did you know that you can reach Grml's cheatcodes file through http://grml.org/cheatcodes/ ?
 -- 
 Reboot a windows machine: net rpc shutdown -r -I IP_ADDRESS -U username%password
 -- 
