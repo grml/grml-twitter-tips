@@ -166,7 +166,7 @@
 -- 
 ! Reboot a windows machine: net rpc shutdown -r -I IP_ADDRESS -U username%password
 -- 
-grml offline documentation: % grml-info
+! grml offline documentation: % grml-info
 -- 
 Secure delete file / directory / partition with wipe || shred || sfill 
 -- 
