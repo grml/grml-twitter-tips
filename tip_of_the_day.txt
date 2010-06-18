@@ -168,7 +168,7 @@
 -- 
 ! grml offline documentation: % grml-info
 -- 
-Secure delete file / directory / partition with wipe || shred || sfill 
+! Secure delete file / directory / partition with wipe || shred || sfill 
 -- 
 Grml's developer blog: http://grml.supersized.org/
 -- 
