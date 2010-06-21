@@ -170,7 +170,7 @@
 -- 
 ! Secure delete file / directory / partition with wipe || shred || sfill 
 -- 
-Grml's developer blog: http://grml.supersized.org/
+! Grml's developer blog: http://grml.supersized.org/
 -- 
 fast file copy tool for LANS Local: npush file_to_copy Remote: npoll
 -- 
