@@ -174,7 +174,7 @@
 -- 
 ! fast file copy tool for LANS Local: npush file_to_copy Remote: npoll
 -- 
-Grep with highlighting: % grep --color=auto || % hgrep
+! Grep with highlighting: % grep --color=auto || % hgrep
 -- 
 Output text as sound: % say 'ghroummel'
 -- 
