@@ -176,7 +176,7 @@
 -- 
 ! Grep with highlighting: % grep --color=auto || % hgrep
 -- 
-Output text as sound: % say 'ghroummel'
+! Output text as sound: % say 'ghroummel'
 -- 
 Adjust a grml harddisk (grml2hd) installation: # grml2hd-utils
 -- 
