@@ -178,7 +178,7 @@
 -- 
 ! Output text as sound: % say 'ghroummel'
 -- 
-Adjust a grml harddisk (grml2hd) installation: # grml2hd-utils
+! Adjust a grml harddisk (grml2hd) installation: # grml2hd-utils
 -- 
 List all standard defines: % gcc -dM -E - < /dev/null
 -- 
