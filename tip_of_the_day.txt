@@ -180,7 +180,7 @@
 -- 
 ! Adjust a grml harddisk (grml2hd) installation: # grml2hd-utils
 -- 
-List all standard defines: % gcc -dM -E - < /dev/null
+! List all standard defines: % gcc -dM -E - < /dev/null
 -- 
 Diff / merge files: % vimdiff file1 file2
 -- 
