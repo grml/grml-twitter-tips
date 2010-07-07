@@ -184,7 +184,7 @@
 -- 
 ! Diff / merge files: % vimdiff file1 file2
 -- 
-Improved dd version: ddrescue tries to read and if it fails it will go on with the next sectors: % ddrescude
+! Improved dd version: ddrescue tries to read and if it fails it will go on with the next sectors: % ddrescude
 -- 
 All these tips and many more are already included on the Grml CD, check it out with grml-tips
 -- 
