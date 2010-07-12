@@ -188,7 +188,7 @@
 -- 
 ! All these tips and many more are already included on the Grml CD, check it out with grml-tips
 -- 
-Create simple chroot: # make_chroot_jail $USERNAME
+! Create simple chroot: # make_chroot_jail $USERNAME
 -- 
 Merge MPEG video files: % cat *.mpg > all.mpg
 -- 
