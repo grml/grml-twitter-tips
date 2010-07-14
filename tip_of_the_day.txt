@@ -190,7 +190,7 @@
 -- 
 ! Create simple chroot: # make_chroot_jail $USERNAME
 -- 
-Merge MPEG video files: % cat *.mpg > all.mpg
+! Merge MPEG video files: % cat *.mpg > all.mpg
 -- 
 Display MS-Word file: % antiword file.doc
 -- 
