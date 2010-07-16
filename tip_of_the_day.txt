@@ -192,5 +192,5 @@
 -- 
 ! Merge MPEG video files: % cat *.mpg > all.mpg
 -- 
-Display MS-Word file: % antiword file.doc
+! Display MS-Word file: % antiword file.doc
 -- 
