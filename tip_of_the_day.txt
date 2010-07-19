@@ -194,3 +194,13 @@
 -- 
 ! Display MS-Word file: % antiword file.doc
 -- 
+! Convert manual to postscript: % man -t zsh > zsh.ps
+-- 
+Get windowid of specific X-window: % xwininfo -int | grep "Window id:" | cut -d ' ' -f 4
+-- 
+Find and remove duplicate files: % dupseek  
+-- 
+relcaim disk space by linking identical files together: % dupmerge
+-- 
+Guess PC-type hard disk partitions / partition table: # gpart /dev/ice
+-- 
