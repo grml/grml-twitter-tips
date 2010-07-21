@@ -196,7 +196,7 @@
 -- 
 ! Convert manual to postscript: % man -t zsh > zsh.ps
 -- 
-Get windowid of specific X-window: % xwininfo -int | grep "Window id:" | cut -d ' ' -f 4
+! Get windowid of specific X-window: % xwininfo -int | grep "Window id:" | cut -d ' ' -f 4
 -- 
 Find and remove duplicate files: % dupseek  
 -- 
