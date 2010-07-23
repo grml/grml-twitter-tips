@@ -198,7 +198,7 @@
 -- 
 ! Get windowid of specific X-window: % xwininfo -int | grep "Window id:" | cut -d ' ' -f 4
 -- 
-Find and remove duplicate files: % dupseek  
+! Find and remove duplicate files: % dupseek  
 -- 
 relcaim disk space by linking identical files together: % dupmerge
 -- 
