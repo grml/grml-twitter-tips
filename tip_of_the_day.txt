@@ -200,7 +200,7 @@
 -- 
 ! Find and remove duplicate files: % dupseek  
 -- 
-relcaim disk space by linking identical files together: % dupmerge
+! relcaim disk space by linking identical files together: % dupmerge
 -- 
 Guess PC-type hard disk partitions / partition table: # gpart /dev/ice
 -- 
