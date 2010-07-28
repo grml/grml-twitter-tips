@@ -202,5 +202,5 @@
 -- 
 ! relcaim disk space by linking identical files together: % dupmerge
 -- 
-Guess PC-type hard disk partitions / partition table: # gpart /dev/ice
+! Guess PC-type hard disk partitions / partition table: # gpart /dev/ice
 -- 
