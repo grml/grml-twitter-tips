@@ -204,3 +204,16 @@
 -- 
 ! Guess PC-type hard disk partitions / partition table: # gpart /dev/ice
 -- 
+! Find and list the ten newest files in directories and subdirs (recursive) with zsh: % %
+! print -rl -- **/*(Dom[1,10])
+-- 
+Some useful documentation: fortune debian-hints || http://gentoo-wiki.com/ || http://grml.org/docs/ || http://wiki.grml.org/
+-- 
+Some fun: dpkg -L funny-manpages 
+-- 
+Find most recent file in a directory with zsh: % setopt dotglob ; print directory/**/*(om[1])
+-- 
+Remote Shell Using SSH: remote: % ssh -NR 3333:localhost:22 user@yourhost  local host: % ssh user@localhost -p 3333
+-- 
+Find all files without a valid owner and change ownership with zsh: % chmod user /**/*(D^u:${(j.:u:.)${(f)"$(</etc/passwd)"}%%:*}:)
+-- 
