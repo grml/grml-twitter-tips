@@ -207,7 +207,7 @@
 ! Find and list the ten newest files in directories and subdirs (recursive) with zsh: % %
 ! print -rl -- **/*(Dom[1,10])
 -- 
-Some useful documentation: fortune debian-hints || http://gentoo-wiki.com/ || http://grml.org/docs/ || http://wiki.grml.org/
+! Some useful documentation: fortune debian-hints || http://gentoo-wiki.com/ || http://grml.org/docs/ || http://wiki.grml.org/
 -- 
 Some fun: dpkg -L funny-manpages 
 -- 
