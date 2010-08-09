@@ -209,7 +209,7 @@
 -- 
 ! Some useful documentation: fortune debian-hints || http://gentoo-wiki.com/ || http://grml.org/docs/ || http://wiki.grml.org/
 -- 
-Some fun: dpkg -L funny-manpages 
+! Some fun: dpkg -L funny-manpages 
 -- 
 Find most recent file in a directory with zsh: % setopt dotglob ; print directory/**/*(om[1])
 -- 
