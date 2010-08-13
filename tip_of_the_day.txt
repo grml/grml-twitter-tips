@@ -213,7 +213,7 @@
 -- 
 ! Find most recent file in a directory with zsh: % setopt dotglob ; print directory/**/*(om[1])
 -- 
-Remote Shell Using SSH: remote: % ssh -NR 3333:localhost:22 user@yourhost  local host: % ssh user@localhost -p 3333
+! Remote Shell Using SSH: remote: % ssh -NR 3333:localhost:22 user@yourhost  local host: % ssh user@localhost -p 3333
 -- 
 Find all files without a valid owner and change ownership with zsh: % chmod user /**/*(D^u:${(j.:u:.)${(f)"$(</etc/passwd)"}%%:*}:)
 -- 
